@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/SourceSansPro-Regular.ttf');
+}
+:root{
+    --sanspro-font-family: 'Nunito Sans';
+    --primary-bg-color: #fb952f;
+    --hover-bg-color: #fae2ca;
+    --white-bg: #FFFFFF;
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "commandConfig": {
+      "commandOperation": "navigate",
+      "pageURL": "home"
+    },
+    "commandDisplayName": "Back to home",
+    "commandKey": "back_home"
+  },
+  {
+    "commandConfig": {
+      "commandOperation": "navigate",
+      "pageURL": "details",
+      "queryParams": {
+        "id": {
+          "value": "${id}"
+        }
+      }
+    },
+    "commandDisplayName": "Go to details",
+    "commandKey": "go_details"
+  },
+  {
+    "commandConfig": {
+      "commandOperation": "navigate",
+      "pageURL": "cart"
+    },
+    "commandDisplayName": "Go to cart",
+    "commandKey": "go_cart"
+  }
+]

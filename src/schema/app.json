@@ -1,0 +1,52 @@
+{
+  "name": "Master Details",
+  "properties": {
+    "ui:widget": "app",
+    "layoutType": "basic",
+    "regions": [
+      {
+        "name": "navbar",
+        "region": "navbar",
+        "properties": {
+          "ui:widget": "navbar"
+        }
+      },
+      {
+        "name": "sidebar",
+        "region": "sidebar",
+        "properties": {
+          "ui:widget": "sidebar"
+        }
+      }
+    ],
+    "themeTypes": "default_theme",
+    "themeView": {
+      "primary": "#1f4c75",
+      "primaryLight": "#3a6082",
+      "primaryDark": "#13436d",
+      "primaryContrastText": "#dadada",
+      "secondary": "#ff9216",
+      "secondaryLight": "#ffa13d",
+      "secondaryDark": "#ff8800",
+      "secondaryContrastText": "#ffff",
+      "primaryText": "#212121",
+      "secondaryText": "#b9b5b5",
+      "backgroundPaper": "#EBF0F3",
+      "backgroundContrast": "#FFFFFF",
+      "titleColor": "#000000"
+    },
+    "login": {
+      "name": "login_page",
+      "properties": {
+        "ui:widget": "tenant_container",
+        "showSignup": true,
+        "showForgotPassword": true,
+        "showLanguage": false,
+        "showLoadingIndicator": true
+      }
+    },
+    "locale": {
+      "en": "English"
+    }
+  }
+}

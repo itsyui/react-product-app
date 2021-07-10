@@ -1,0 +1,25 @@
+[
+  {
+    "orderId": 1,
+    "fvb:sitemap_title": "Home",
+    "fvb:url": "home",
+    "fvb:isDefault": true,
+    "fvb:showInSidebar": true,
+    "roles": [],
+    "fvb:sitemap_name": "home"
+  },
+  {
+    "orderId": 3,
+    "fvb:sitemap_title": "Details",
+    "fvb:url": "details",
+    "fvb:showInSidebar": true,
+    "roles": [],
+    "fvb:sitemap_name": "details",
+    "fvb:queryParams": [
+      {
+        "isBounded": true,
+        "queryParamName": "id"
+      }
+    ]
+  }
+]

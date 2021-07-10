@@ -1,0 +1,87 @@
+{
+  "id": "details",
+  "title": "Details",
+  "url": "/details",
+  "orderId": 3,
+  "roles": [],
+  "queryParams": [
+    {
+      "isBounded": true,
+      "queryParamName": "id"
+    }
+  ],
+  "components": {
+    "6cd1b5c1-3245-32ea-db00-1d4891db30a1": {
+      "name": "6cd1b5c1-3245-32ea-db00-1d4891db30a1",
+      "properties": {
+        "title": "Card",
+        "propertyType": "GridCard",
+        "gridSchemaId": "product",
+        "controlID": "",
+        "widget": "GridWidget",
+        "ui:widget": "grid",
+        "widgetType": "bound",
+        "gridViewType": "custom",
+        "dataSource": "datasource",
+        "typeId": "product",
+        "primaryColumn": "id",
+        "gridViewAttributes": [
+          {
+            "typeId": "product",
+            "schemaId": "product"
+          }
+        ],
+        "customGridViewId": "grid_card_control"
+      }
+    },
+    "785ffe1c-4e0c-f560-6cc0-bb96d4b96883": {
+      "name": "785ffe1c-4e0c-f560-6cc0-bb96d4b96883",
+      "properties": {
+        "title": "Add to cart",
+        "propertyType": "commandButton",
+        "ui:widget": "commandButton",
+        "widgetType": "unbound",
+        "iconPosition": "startIcon",
+        "iconName": "add_shopping_cart",
+        "commandName": "add_cart",
+        "alignText": "center",
+        "span": null
+      }
+    }
+  },
+  "pageBinding": {
+    "6cd1b5c1-3245-32ea-db00-1d4891db30a1": {
+      "4f065a2e-c47b-9dc7-54f5-fe1c98b21e5b": {
+        "name": "setDefaultFilter",
+        "provider": "GridWidget",
+        "providerId": "",
+        "providerTypeId": "",
+        "providerSchemaId": "",
+        "metadata": {
+          "filter": "{\"id\":[{\"operation\":\"eq\",\"value\":\"${id}\"}]}"
+        }
+      }
+    }
+  },
+  "layout": [
+    {
+      "widget": "6cd1b5c1-3245-32ea-db00-1d4891db30a1"
+    },
+    {
+      "columns": [
+        {}
+      ]
+    },
+    {
+      "columns": [
+        {
+          "cell": [
+            {
+              "widget": "785ffe1c-4e0c-f560-6cc0-bb96d4b96883"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
