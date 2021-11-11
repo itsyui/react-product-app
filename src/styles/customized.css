@@ -1,203 +1,227 @@
-
 @import "variables.css";
 
-body{
-    min-height: 100vh;
+body {
+  min-height: 100vh;
 }
 
-html,body,div,p,span,input,textarea,button,ul,li,ol{
-    font-family: var( --sanspro-font-family );
+html,
+body,
+div,
+p,
+span,
+input,
+textarea,
+button,
+ul,
+li,
+ol {
+  font-family: var(--sanspro-font-family);
 }
-.search .input-group-text{
-    background-color: inherit;
-    border: 0px solid;
+.search .input-group-text {
+  background-color: inherit;
+  border: 0px solid;
 }
-.search .form-control{
-    border: 0px solid;
-    background-color: inherit;
-    padding: 0px;
-    font-size: 1rem;
+.search .form-control {
+  border: 0px solid;
+  background-color: inherit;
+  padding: 0px;
+  font-size: 1rem;
 }
-.search .input-group{
-    border: 1px solid #f5f4f4;
-    border-radius: 20px;
+.search .input-group {
+  border: 1px solid #f5f4f4;
+  border-radius: 20px;
 }
-.freshui-media-card-container img.card-img{
-    height: auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
+.freshui-media-card-container img.card-img {
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
 }
-.freshui-media-card-container.card{
-    border: 0px solid;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.freshui-media-card-container.card {
+  border: 0px solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.btn-primary{
-    background-color: var( --primary-bg-color );
-    border-color: var( --primary-bg-color );
-    display: flex;
-    align-items: center;
+.btn-primary {
+  background-color: var(--primary-bg-color);
+  border-color: var(--primary-bg-color);
+  display: flex;
+  align-items: center;
 }
- .btn-outline-primary {
-    border-color: var( --primary-bg-color );
-    color:  var( --primary-bg-color );
-    background-color: var( --white-bg );
- }
- 
- .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary:visited{
-    background-color: var( --hover-bg-color );
-    border-color: var( --hover-bg-color );
-    color: var( --primary-bg-color );
-    -webkit-box-shadow: inherit;
-    box-shadow: inherit;
+.btn-outline-primary {
+  border-color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
+  background-color: var(--white-bg);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: var(--hover-bg-color);
+  border-color: var(--hover-bg-color);
+  color: var(--primary-bg-color);
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: var( --primary-bg-color );
-    background-color: var( --hover-bg-color );
-    border-color: var( --hover-bg-color );
+  color: var(--primary-bg-color);
+  background-color: var(--hover-bg-color);
+  border-color: var(--hover-bg-color);
 }
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
-    background-color: var( --primary-bg-color );
-    border-color: var( --primary-bg-color );
+  background-color: var(--primary-bg-color);
+  border-color: var(--primary-bg-color);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.btn-primary:not(:disabled):not(.disabled):active:focus{
-    -webkit-box-shadow: inherit;
-    box-shadow: inherit;
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
 }
-.btn-outline-primary:hover,.btn-outline-primary:focus,.btn-outline-primary:active,.btn-outline-primary:visited {
-    border-color: var( --hover-bg-color );
-    color:  var( --primary-bg-color );
-    background-color: var( --white-bg );
-    -webkit-box-shadow: inherit;
-    box-shadow: inherit;
- }
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:visited {
+  border-color: var(--hover-bg-color);
+  color: var(--primary-bg-color);
+  background-color: var(--white-bg);
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: var( --primary-bg-color );
-    background-color: var( --white-bg );
-    border-color: var( --hover-bg-color );
+  color: var(--primary-bg-color);
+  background-color: var(--white-bg);
+  border-color: var(--hover-bg-color);
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active,
-.btn-outline-primary:not(:disabled):not(.disabled):active{
-    background-color: var( --white-bg );
-    border-color: var( --primary-bg-color );
-    color: var( --primary-bg-color );
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  background-color: var(--white-bg);
+  border-color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus{
-    -webkit-box-shadow: inherit;
-    box-shadow: inherit;
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
 }
-.freshui-header-top-right-menu .freshui-icons{
-    color: var( --white-bg );
+.freshui-header-top-right-menu .freshui-icons {
+  color: var(--white-bg);
 }
-.home-page .card-body{
-    background-color: var( --primary-bg-color );
-    color: white;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.home-page .card-body {
+  background-color: var(--primary-bg-color);
+  color: white;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.product-details .details-image img{
-    width: 100%;
+.product-details .details-image img {
+  width: 100%;
 }
-.model-list .freshui-select-listView{
-    border: 1px solid;
-    border-color: rgba(0,0,0,.125);
+.model-list .freshui-select-listView {
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.125);
 }
-.page-content-cotainer{
-    height: calc(100% - 58px);
+.page-content-cotainer {
+  height: calc(100% - 58px);
 }
-.model-list .Listmodel-whole-container.card{
-    border-radius: 20px;
-    border-top-right-radius: 0px;
-} 
+.model-list .Listmodel-whole-container.card {
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+}
 .price_amount::before {
-    content: "₹";
+  content: "₹";
 }
-.freshui-navbar-container .bg-light{
-    background-color: var( --primary-bg-color ) !important;
+.freshui-navbar-container .bg-light {
+  background-color: var(--primary-bg-color) !important;
 }
-.nav-title{
-    color: var( --white-bg );
+.nav-title {
+  color: var(--white-bg);
 }
-.search .form-control:focus{
-    -webkit-box-shadow: inherit;
-    box-shadow: inherit;
+.nav-logo {
+  display: flex;
 }
-@media (max-width: 768px){
-    .home-page .freshui-card-container.col-xl-3{
-        max-width: 50%;
-        width: 50%;
-    }
-    .freshui-media-card-container img.card-img{
-        height: auto;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 0px;
-    }
-    .freshui-media-card-container.card{
-        border-top-left-radius: 15px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    .home-page .card-body{
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    .product-details .freshui-btn-control .btn{
-        width: 100%;        
-        display: flex;
-        justify-content: center;
-    }
-    .cart-page .freshui-btn-control .btn{
-        width: 100%;        
-        display: flex;
-        justify-content: center;
-    }
-    .home-page .card-body h5{
-        font-size: 1rem;
-    }
+.freshui-navbar-container .header-fixed-design {
+  align-items: flex-start;
 }
-@media (max-width: 540px){
-    .home-page .freshui-card-container.col-xl-3{
-        max-width: 50%;
-        width: 50%;
-    }
-    .freshui-media-card-container img.card-img{
-        height: auto;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 0px;
-    }
-    .freshui-media-card-container.card{
-        border-top-left-radius: 15px;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }    
-    .home-page .card-body{
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    .product-details .freshui-btn-control .btn{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .cart-page .freshui-btn-control .btn{
-        width: 100%;        
-        display: flex;
-        justify-content: center;
-    }    
-    .home-page .card-body .h5{
-        font-size: 1rem;
-    }
+.freshui-header-top-right-menu {
+  align-self: inherit;
+}
+.search .form-control:focus {
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
+@media (max-width: 768px) {
+  .home-page .freshui-card-container.col-xl-3 {
+    max-width: 50%;
+    width: 50%;
+  }
+  .freshui-media-card-container img.card-img {
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+  }
+  .freshui-media-card-container.card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .home-page .card-body {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .product-details .freshui-btn-control .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cart-page .freshui-btn-control .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .home-page .card-body h5 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 540px) {
+  .home-page .freshui-card-container.col-xl-3 {
+    max-width: 50%;
+    width: 50%;
+  }
+  .freshui-media-card-container img.card-img {
+    height: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+  }
+  .freshui-media-card-container.card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .home-page .card-body {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .product-details .freshui-btn-control .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cart-page .freshui-btn-control .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .home-page .card-body .h5 {
+    font-size: 1rem;
+  }
 }
